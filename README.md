@@ -9,10 +9,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     After the successfull completion of Authentication, the user will be allowed to login to access webpages and features
         of Webex
     If the Authentication of user is not acheived, the user will not be allowed to naviagte to other webpages rather will 
-        be redirected to login page itself, which is acheived using AuthGaurd Service
+        be redirected to login page itself, which is acheived using AuthGaurd Service which also prevents maual navigation
 
 ### AFTER LOGIN
-    After successfull login, the user is redirected to https://arunprahbu333.web.app/logged where the user has been 
+    After successfull login, the user is redirected to https://arunprahbu333.web.app/logged where the user has been shown
         with list of features with designed images
     Upon clicking of repective images, the user will be redirected to the respective features.
     User also has an option of using the buttons in the top right corner to navigate to different feature.
@@ -31,16 +31,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         1. Enter the room name and click on create room button to create room
         2. After creating a room, the success message will be displayed and automatically hides
         Send Messages
-            1. Users are allowed to send a message a particular Room.
+            1. Users are allowed to send a message to a particular Room.
             2. Enter the username, Messages in respective fields and click send messages button.
             3. Message will be successfully sent.
         Receive Messages
             1. Inorder to Receive the webex message, click on the Receive Message button which triggers the
-                incoming message and alert will be shown as "listening to incoming events"
+                incoming message event and the alert will be shown as "listening to incoming events"
             2. After that the incoming messages are alerted to the user and displayed in console as well
     List Room
         1. Clicking on list room tab and List Rooms button displays a maximum of 30 rooms related to the users account.
-        2. Clicking on clear list button clear the lsited rooms on the webpage.
+        2. Clicking on clear list button clear the listed rooms on the webpage.
      
     Remove Room
         1. Upon clicking on Remove Room tab, enter the exect room name to be removed and clicking on remove room button
@@ -49,7 +49,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## WEBEX CALL
     This feature allows the user to make and recive call after authenticating with webex token.
     Feature oage includes
-        1. Get token? helps the user to naviagte to the "https://developer.webex.com/docs/api/getting-started#accounts-and-authentication"
+        1. Get token? link helps the user to naviagte to the "https://developer.webex.com/docs/api/getting-started#accounts-and-authentication"
             page and get the user token.
         2. User has to enter the token in token field and click on connect to get connected to make/receive call
         3. Upon registering, now user can enter the callee whom to be called
